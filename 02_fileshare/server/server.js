@@ -11,10 +11,17 @@ const port = 3000;
 
 // Stap 3: include client folder als static website
 const public_path = path.join(__dirname, '../client');
+console.log(public_path);
 app.use(express.static(public_path));
 
 
 // Stap 4: Bouw de API op
+//ophalen van de lijst van bestanden binnen de /client/uploads folder
+app.get('/api/files', (req, res) => {
+    const files = fs.readdirSync(public_path + '/uploads');
+    res.json(files);
+});
+
 
 // Stap 5: Start de server op een specifieke poort
 app.listen(port, () => {

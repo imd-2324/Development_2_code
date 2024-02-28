@@ -8,7 +8,8 @@
 6. Sla de aanpassingen op indien er geklikt wordt op save
 
 ## Extra uitdagingen
-1. Om code te optimaliseren en leesbaarder te maken kan je ook vragen aan chatGPT of CoPilot hoe je deze Express.js api kan aanpassen zodat code logisch opgesplitst zit in verschillende bestanden.
-2. Zorg dat folders aangemaakt kunnen worden
-3. Zorg ervoor dat we kunnen navigeren naar een nieuwe folder om daar de inhoud van te zien.
-4. Zorg dat bestanden ook geüpload kunnen worden
+   
+1. Zorg dat folders aangemaakt kunnen worden
+2. Zorg ervoor dat we kunnen navigeren naar een nieuwe folder om daar de inhoud van te zien.
+3. Zorg dat bestanden ook geüpload kunnen worden
+4. Om code te optimaliseren en leesbaarder te maken kan je ook vragen aan chatGPT of CoPilot hoe je deze Express.js api kan aanpassen zodat code logisch opgesplitst zit in verschillende bestanden.
