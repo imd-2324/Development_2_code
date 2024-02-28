@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileDrop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="brand">FileDrop</div>
+        <a href="index.html">Files</a>
+        <a href="#">Sharing</a>
+        <a href="#">Recents</a>
+        <a href="#">File requests</a>
+        <a href="#">Deleted files</a>
+    </nav>
+    <main>
+        <div class="top">
+        <h1>Files &gt; </h1>
+        <form class="search">
+            <input type="search" name="search" placeholder="Search">
+            <button>Search</button>
+        </form>
+        </div>
+        <div class="files">
+            <div class="header">File</div>
+            <div class="header">Size</div>
+            <div class="header">Created</div>
+            
+            <div><button popovertarget="edit-file"><i class="fa fa-file-text fa-fw"></i> file.txt</button></div>
+            <div>200KB</div>
+            <div>7/10/2023 10:48</div> 
+
+            <div><button popovertarget="edit-file"><i class="fa fa-file-text fa-fw"></i> homepage.html</button></div>
+            <div>200KB</div>
+            <div>7/10/2023 10:48</div>
+            
+            <div><a href="uploads/image.png" download><i class="fa fa-file-image fa-fw"></i> image.png</a></div>
+            <div>200KB</div>
+            <div>7/10/2023 10:48</div>
+            
+        </div>
+        
+        <form id="upload" class="upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" id="file">
+            <button>Upload</button>
+        </form>
+        <form id="folder" class="upload" method="POST">
+            <label>Maak folder: <input type="text" name="foldername"></label>
+            
+            <button type="submit">Create</button>
+        </form>
+    </main>
+
+
+    <div popover id="edit-file">
+        <form id="edit">
+            <button popoverclose class="close">&times;</button>
+            <h2>Bestand aanpassen</h2>
+            <label>
+                <p>file.txt</p>
+                <textarea id="content" name="content" rows="25"></textarea>
+            </label>
+            <button type="submit">Save</button>
+            <a href="#" popoverclose>Cancel</a>
+        </form>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/8bf80026e5.js" crossorigin="anonymous"></script>
+</body>
+</html>
