@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student List</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student List</h1>
+
+      <form class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search by name..."
+        />
+      </form>
+
+      <ul class="student-list">
+        <!-- Dynamic list items will be added here -->
+      </ul>
+
+      <button class="add-student-btn">Add New Student</button>
+    </div>
+
+    <div class="modal" id="addStudentModal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Add Student</h2>
+        <form class="add-student-form" action="/api/students" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br />
+          <label for="nickname">Nickname:</label>
+          <input type="text" id="nickname" name="nickname" /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br />
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>

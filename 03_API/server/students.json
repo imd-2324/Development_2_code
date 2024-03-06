@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Jonah",
+    "nickname": "John4",
+    "email": "jonadesm7@student.arteveldehs.be"
+  },
+  {
+    "id": 2,
+    "name": "Stijn Baele",
+    "nickname": "Stino",
+    "email": "stijbael@student.arteveldehs.be"
+  },
+  {
+    "id": 3,
+    "name": "Jarno Pennoit",
+    "nickname": "Jarre",
+    "email": "jarnpenn@student.arteveldehs.be"
+  },
+  {
+    "id": 4,
+    "name": "Pema Pema Lhundup",
+    "nickname": "PemPem (PP)",
+    "email": "pemapema@student.arteveldehs.be"
+  },
+  {
+    "id": 5,
+    "name": "Emile Bergers",
+    "nickname": "Emilio",
+    "email": "emilberg@student.arteveldehs.be"
+  },
+  {
+    "id": 6,
+    "name": "Yben Broeckaert",
+    "nickname": "Y-be",
+    "email": "ybenbroe@student.arteveldehs.be"
+  },
+  {
+    "id": 7,
+    "name": "Emiel Clopterop",
+    "nickname": "ClopClop",
+    "email": "emieclop@student.arteveldehs.be"
+  },
+  {
+    "id": 8,
+    "name": "Lorenzo De Graeve",
+    "nickname": "Lorre",
+    "email": "loredegr3@student.arteveldehs.be"
+  },
+  {
+    "id": 9,
+    "name": "Dieter De Weirdt",
+    "nickname": "Diddy",
+    "email": "dietde2@arteveldehs.be"
+  },
+  {
+    "id": 10,
+    "name": "Louis Dierickx",
+    "nickname": "Lou",
+    "email": "louidier@student.arteveldehs.be"
+  },
+  {
+    "id": 11,
+    "name": "Arnout Hennion",
+    "nickname": "Arnohenn",
+    "email": "arnohenn@student.arteveldehs.be"
+  },
+  {
+    "id": 12,
+    "name": "Jannes Kellens",
+    "nickname": "Jankell",
+    "email": "jannkell@student.arteveldehs.be"
+  },
+  {
+    "id": 13,
+    "name": "Jens Lesage",
+    "nickname": "Jenlesa",
+    "email": "jenslesa@student.arteveldehs.be"
+  },
+  {
+    "id": 14,
+    "name": "Pema Pema Lhundup",
+    "nickname": "PemPem (PP)",
+    "email": "pemapema@student.arteveldehs.be"
+  },
+  {
+    "id": 15,
+    "name": "Vik Sluijter",
+    "nickname": "Vislu",
+    "email": "viksluij@student.arteveldehs.be"
+  },
+  {
+    "id": 16,
+    "name": "Jasmine Van Ryckeghem",
+    "nickname": "Jazzy",
+    "email": "jasmvanr1@student.arteveldehs.be"
+  },
+  {
+    "id": 17,
+    "name": "Olivier Vandenberghe",
+    "nickname": "Olivander",
+    "email": "olivvand7@student.arteveldehs.be"
+  },
+  {
+    "id": 18,
+    "name": "Niels Minne",
+    "nickname": "Logan",
+    "email": "nielmi@arteveldehs.be"
+  }
+]
