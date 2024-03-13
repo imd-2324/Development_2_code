@@ -1,4 +1,4 @@
-# Database Connection Deel 1 Solved
+# Templating & Database Connection Deel 1 Solved
 
 TO RUN:
 - Maak dat je in de juiste folder zit (voor deze opdracht /Oplossingen/04_templating_solved)
