@@ -27,14 +27,15 @@ app.use(express.static(public_path));
 // });
 
 //Lezen van de students uit de file students.json en in de variable students steken
-let students; //Aanmaken variable
+let students;
 fs.readFile(path.join(server_path, "students.json"), "utf-8", (err, data) => {
-  if (err) {
-    res.status(500).send({ message: "Something went wrong" });
-    return;
-  }
-  students = JSON.parse(data); //JSON Data in students;
-});
+    if (err) {
+        console.error(err);
+    }
+    students = JSON.parse(data);
+})
+
+
 
 /**
  * GET
@@ -206,6 +207,6 @@ app.delete("/api/students/:id", (req, res) => {
 });
 
 //Starten van de server
-app.listen(PORT, () => {
+app.listen(4000, () => {
   console.log(`Server is listening on localhost:${PORT}`);
 });

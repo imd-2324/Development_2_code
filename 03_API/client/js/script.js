@@ -8,7 +8,7 @@ let students = [];
 
 const getStudents = async () => {
   try {
-    const response = await fetch("http://localhost:3000/api/students");
+    const response = await fetch("http://localhost:4000/api/students");
     students = await response.json();
     displayStudents(students);
   } catch (error) {
