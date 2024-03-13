@@ -2,6 +2,7 @@
 
 TO RUN:
 - Maak dat je in de juiste folder zit (voor deze opdracht /Oplossingen/04_templating_solved)
+- Maak een .env file aan in de root en assign PORT naar keuze
 - npm install
 - npm run dev of npm run start
 
