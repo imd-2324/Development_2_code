@@ -15,7 +15,7 @@ export const createApp = () => {
 
     //Initialize the app
     app.listen(PORT, () => {
-        console.log('Server draait op http://localhost:3000');
+        console.log(`Server draait op http://localhost:${PORT}`);
     })
     
     return app;
