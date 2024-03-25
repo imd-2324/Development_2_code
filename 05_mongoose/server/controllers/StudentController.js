@@ -1,4 +1,4 @@
-import {PORT} from "../consts.js";
+import { PORT } from "../consts.js";
 
 export const studentList = async (req,res) => {
 
