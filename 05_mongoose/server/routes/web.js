@@ -1,16 +1,24 @@
-import { index } from "../controllers/PageController.js"
-import { studentList, studentCreate } from "../controllers/StudentController.js"
-import { databaseInfo } from "../controllers/DatabaseController.js";
+import DatabaseController from "../controllers/DatabaseController.js";
+import PageController from "../controllers/PageController.js";
+import studentRoutes from "./studentRoutes.js";
+import apiRoutes from '../api/api.js';
+import express from 'express';
 
-export const router = (app) => {
 
-    //PageController
-    app.get('/', index);
+const router = express.Router();
 
-    //StudentController
-    app.get('/students', studentList);
-    app.get('/create', studentCreate);
+//Page routes
+router.get('/', PageController.index);
 
-    //DatabaseController
-    app.get('/database', databaseInfo);
-}
+//Api routes
+router.use('/api', apiRoutes)
+
+//Student routes
+router.use('/students', studentRoutes);
+
+//Database routes
+router.get('/database', DatabaseController.index);
+
+
+
+export default router;

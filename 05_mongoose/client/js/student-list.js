@@ -8,16 +8,13 @@ deleteForm.forEach((form) => {
         // Ask for confirmation before deleting
         if (confirm('Are you sure you want to delete this student?')) {
             // If user confirms, proceed with deletion
-            fetch(`http://localhost:3000/api/students/${id}`, {
+            fetch(`http://localhost:4000/students/destroy/${id}`, {
                 method: 'DELETE',
             })
-            .then((response) => {
-                if (response.ok) {
-                    window.location.reload(); // Reload the page after successful deletion
-                } else {
-                    // Optionally handle unsuccessful deletion
-                    console.error('Failed to delete student');
-                }
+            .then(() => {
+             
+            window.location.reload(); // Reload the page after successful deletion
+                
             })
             .catch((error) => {
                 console.error('Error:', error);

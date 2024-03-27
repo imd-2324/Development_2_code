@@ -1,0 +1,19 @@
+    <h1>Student List</h1>
+<div class="container">
+    {{#if students}}
+    <ul class="student-list">
+        
+        {{#each students}}
+        <div class="student-item">
+            {{>student-card}}
+            <form>
+                <input type="hidden" name="id" value="{{_id}}">
+                <button class="delete-button" type="submit">Delete</button>
+            </form>
+        </div>
+        {{/each}}
+    </ul>
+    {{else}}
+    <p class="flex-center">No students yet</p>
+    {{/if}}
+</div>

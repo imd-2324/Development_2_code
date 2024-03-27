@@ -1,19 +1,18 @@
-import { router } from './routes/web.js';
-import { createHandlebarsEngine } from './lib/handlebars.js';
-import { API } from './api/api.js';
-import { createApp } from './lib/express.js';
+import router from "./routes/web.js";
+import { createHandlebarsEngine } from "./lib/handlebars.js";
+import { createApp } from "./lib/express.js";
+import connectToDB from "./config/mongoose.js";
+
+
+
 
 
 const app = createApp();
 
+connectToDB();
+
 //Handlebars engine (lib/handlebars.js)
 createHandlebarsEngine(app);
 
-//Access to API
-API(app);
-
 //Router
-router(app);
-
-
-
+app.use(router);

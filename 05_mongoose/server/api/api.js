@@ -2,10 +2,12 @@ import { SERVER_PATH } from "../consts.js";
 import fs from "fs";
 import path from "path";
 import { students } from "../lib/helpers.js";
+import express from 'express';
 
-export const API = (app) => {
+const router = express.Router();
+
   //Get all students
-  app.get("/api/students", (req, res) => {
+  router.get("/students", (req, res) => {
     console.log(req.query);
     const { filter, value } = req.query;
 
@@ -16,7 +18,7 @@ export const API = (app) => {
   });
 
   //Get a specific student
-  app.get("/api/students/:id", (req, res) => {
+  router.get("/students/:id", (req, res) => {
     const id = req.params.id;
     const parsedId = parseInt(id);
 
@@ -41,7 +43,7 @@ export const API = (app) => {
   /* -------------------------------------------------------------------------------------------*/
 
   //Create a new student
-  app.post("/api/students", (req, res) => {
+  router.post("/students", (req, res) => {
     const newStudent = {
       id: students[students.length - 1].id + 1,
       ...req.body,
@@ -59,7 +61,7 @@ export const API = (app) => {
   /* -------------------------------------------------------------------------------------------*/
 
   //Delete the student
-  app.delete("/api/students/:id", (req, res) => {
+  router.delete("/students/:id", (req, res) => {
     const id = req.params.id;
     const parsedId = parseInt(id);
 
@@ -86,4 +88,5 @@ export const API = (app) => {
 
     return res.sendStatus(200).send(students);
   });
-};
+
+  export default router;
