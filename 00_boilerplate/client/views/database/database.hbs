@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>Database Connection</h1>
+    <h4>Connections</h4>
+
+    <div id="mongodbStatus" class="connection-status border-success {{#if connected}}border-success connected{{else}}border-error disconnected{{/if}}">
+        <div class="flex-left">
+            <h4>MongoDB</h4>
+            <p>{{#if connected}}Connected{{else}}Disconnected{{/if}}</p>
+        </div>
+        <span class="circle {{#if connected}}green{{else}}red{{/if}}"></span>
+    </div>
+</div>

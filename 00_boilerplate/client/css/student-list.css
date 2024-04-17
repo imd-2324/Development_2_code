@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+.student-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.student-item {
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-button{
+    background-color: rgba(221, 61, 61, 0.37);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: rgb(221, 61, 61);
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
