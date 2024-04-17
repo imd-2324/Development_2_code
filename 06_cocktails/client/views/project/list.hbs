@@ -1,0 +1,15 @@
+    <h1>Projects List</h1>
+<div class="container">
+    {{#if projects}}
+    <ul class="project-list">
+        
+        {{#each projects}}
+        <div class="project-item">
+            {{>project-card}}
+        </div>
+        {{/each}}
+    </ul>
+    {{else}}
+    <p class="flex-center">No projects yet</p>
+    {{/if}}
+</div>

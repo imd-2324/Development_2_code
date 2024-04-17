@@ -1,0 +1,24 @@
+<h1>Hello Cocktails</h1>
+
+<form>
+    <p>
+        <input type="text" name="search" placeholder="Search" value="{{ search }}">
+    </p>
+    <p>
+        <label>Alcohol</label> van
+        <input type="number" name="minAlcohol" min="0" max="100" value="{{ minAlcohol }}"> tot
+        <input type="number" name="maxAlcohol" min="0" max="100" value="{{ maxAlcohol }}">
+    </p>
+    <button type="submit">Search</button>
+</form>
+
+{{#each cocktails }}
+  <li>
+    <a href="/cocktails/{{ _id }}">
+        {{name}} 
+        {{# if alcohol_pct}}
+            ({{ alcohol_pct }}°)
+        {{/if}}
+    </a>
+  </li>
+{{/each}}
