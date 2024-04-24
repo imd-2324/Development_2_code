@@ -1,0 +1,17 @@
+<div class="container">
+      <div class="mok_wrapper">
+          <div id="mok" class="mok tall">
+              <div id="foam" class="foam"></div>
+              <div id="coffee" class="coffee"></div>
+              <div id="milk" class="milk"></div>
+          </div>
+      </div>
+      <form name="form" action="order.html">
+          <h1>My starbucks</h1>
+          <div class="message">
+              <p><span id="name">{{ coffee.name }}</span> thank you for your order. Your coffee will be ready in a few minutes.</p>
+              <p>Your order number is <span id="order_number">{{ coffee._id }}</span>.</p>
+              <p>There are <span id="queue">{{ number_of_waiting }}</span> people waiting in front of you.</p>
+          </div>
+      </form>
+  </div>

@@ -1,0 +1,25 @@
+<div class="dashboard">
+    <h1>Alle pending bestellingen</h1>
+    <table>
+        <tr>
+            <th>Order nummer</th>
+            <th>Naam</th>
+            <th>Size</th>
+            <th>Darkness</th>
+            <th>Suger</th>
+            <th>Besteld op</th>
+            <th>Action</th>
+        </tr>
+        {{#each orders }}
+        <tr class="order">
+            <td>{{ _id }}</td>
+            <td>{{ name }}</td>
+            <td>{{ size }}</td>  
+            <td>{{ darkness }}</td>  
+            <td>{{ sugar }} ts</td>        
+            <td>{{formatDate created_at 'h:mm:ss' }}</td>
+            <td><button class="btn btn-primary">Klaar</button></td>
+        </tr>
+        {{/each }}
+    </table>
+</div>
