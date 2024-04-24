@@ -1,0 +1,180 @@
+:root {
+    --colorWhite: #fff;
+    --colorNeutralCool: #f9f9f9;
+    --colorNeutralWarm: #f2f0eb;
+    --colorCeramic: #edebe9;
+    --colorBlack: #000;
+    --colorGreenStarbucks: #006241;
+    --colorGreenAccent: #00754a;
+    --colorGreenLight: #d4e9e2;
+    --colorHouseGreen: #1e3932;
+    --colorGold: #cba258;
+    --colorGoldLight: #dfc49d;
+    --colorGoldLightest: #faf6ee;
+    --typefacePrimary: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--typefacePrimary);
+    margin: 0;
+    padding: 0;
+    background-color: var(--colorGreenStarbucks);
+    color: var(--colorWhite);
+    font-size: 1.2rem;
+    line-height: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 300;
+    text-align: center;
+    margin: 0 0 1rem;
+    font-size: 2rem;
+}
+
+.mok_wrapper {
+    margin: 1rem 0;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /*-webkit-box-reflect: below;*/
+
+    & .mok {
+        border: solid 2px var(--colorWhite);
+        box-shadow: 0 0 5px rgba(255,0,0,1);
+        /*transform: perspective(10px) rotateX(-.5deg);*/
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+        display: block;
+        flex-direction: column;
+        justify-content: end;
+        transition: all .3s;
+        & .coffee {
+            content: '';
+            width: 100%;
+            height: 50%;
+            background-color: var(--colorGold);
+            filter: brightness(50%);
+        }
+        & .milk {
+            content: '';
+            width: 100%;
+            height: 20%;
+            background-color: var(--colorNeutralCool);
+        }
+        & .foam {
+            content: '';
+            width: 100%;
+            height: 30%;
+            background-color: var(--colorGoldLightest);
+        }
+        &.short {
+            height: 40%;
+            width: 80px;
+        }
+        &.tall {
+            height: 60%;
+            width: 100px;
+        }
+        &.grande {
+            height: 80%;
+            width: 120px;
+        }
+        &.venti {
+            height: 100%;
+            width: 140px;
+        }
+    }
+    
+}
+
+form {
+    padding: 2rem;
+    height: 60vh;
+    max-width: 400px;
+    background-color: var(--colorWhite);
+    color: var(--colorGreenStarbucks);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    overflow: scroll;
+    & .label {
+        display: block;
+        text-transform: uppercase;
+        font-size: .9rem;
+        color: var(--colorGoldLight);
+
+    }
+    & .input {
+        margin-bottom: 1rem;
+        accent-color: var(--colorGreenAccent);
+    }
+    & input[type="range"] {
+        width: 100%;
+    }
+    & input[type="text"], & input[type="number"] {
+        width: 100%;
+        padding: .5rem;
+        border: none;
+        border-bottom: 2px solid var(--colorGreenAccent);
+        background-color: var(--colorGreenLight);
+        color: var(--colorHouseGreen);
+        font-size: 1rem;
+    }
+    & button {
+        padding: .8rem 1rem;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        width: 100%;
+        background-color: var(--colorGreenAccent);
+        color: var(--colorWhite);
+        border: none;
+        border-radius: 2rem;
+        cursor: pointer;
+        transition: all .3s;
+        &:hover {
+            background-color: var(--colorGold);
+        }
+        margin: 1rem 0 2rem;
+    
+    }
+}
+
+
+/*Chrome*/
+    input[type='range'] {
+      overflow: hidden;
+      -webkit-appearance: none;
+      background-color: var(--colorGreenLight);
+      border-radius: 10px;
+    }
+    
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 10px;
+      -webkit-appearance: none;
+      color: #13bba4;
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 10px;
+      -webkit-appearance: none;
+      height: 10px;
+      background: var(--colorGreenStarbucks);
+    }
+
+
+
+.message span {
+        display: inline-block;
+        background-color: var(--colorGreenLight);
+        color: #13bba4;
+        padding: .5rem;
+        border-radius: 5px;
+    }
