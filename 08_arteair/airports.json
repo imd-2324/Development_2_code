@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "662b44772eb4b1c74f4e3570"
+  },
+  "airport_code": "BRU",
+  "name": "Brussels",
+  "country": "BEL",
+  "location": "Brussel"
+},{
+  "_id": {
+    "$oid": "662b44772eb4b1c74f4e3571"
+  },
+  "airport_code": "CRL",
+  "name": "Brussels South Charleroi",
+  "country": "BEL",
+  "location": "Charleroi"
+},{
+  "_id": {
+    "$oid": "662b44772eb4b1c74f4e3572"
+  },
+  "airport_code": "IBZ",
+  "name": "Ibiza",
+  "country": "ESP",
+  "location": "Ibiza"
+},{
+  "_id": {
+    "$oid": "662b44772eb4b1c74f4e3573"
+  },
+  "airport_code": "FCO",
+  "name": "Leonardo da Vinci–Fiumicino",
+  "country": "ITA",
+  "location": "Rome"
+},{
+  "_id": {
+    "$oid": "662b44772eb4b1c74f4e3574"
+  },
+  "airport_code": "BCN",
+  "name": "Barcelona Airport - El Prat",
+  "country": "ESP",
+  "location": "Barcelona"
+}]

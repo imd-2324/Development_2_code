@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "662b467e2eb4b1c74f4e3579"
+  },
+  "from": {
+    "$oid": "662b44772eb4b1c74f4e3570"
+  },
+  "to": {
+    "$oid": "662b44772eb4b1c74f4e3572"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1714559700000"
+    }
+  },
+  "aircraft": {
+    "$oid": "662b44612eb4b1c74f4e356d"
+  },
+  "ticket_price": {
+    "$numberDecimal": "100"
+  }
+},{
+  "_id": {
+    "$oid": "662b467e2eb4b1c74f4e357a"
+  },
+  "from": {
+    "$oid": "662b44772eb4b1c74f4e3571"
+  },
+  "to": {
+    "$oid": "662b44772eb4b1c74f4e3573"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1714652100000"
+    }
+  },
+  "aircraft": {
+    "$oid": "662b44612eb4b1c74f4e356e"
+  },
+  "ticket_price": {
+    "$numberDecimal": "225.50"
+  }
+},{
+  "_id": {
+    "$oid": "662b467e2eb4b1c74f4e357b"
+  },
+  "from": {
+    "$oid": "662b44772eb4b1c74f4e3574"
+  },
+  "to": {
+    "$oid": "662b44772eb4b1c74f4e3570"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1714747500000"
+    }
+  },
+  "aircraft": {
+    "$oid": "662b44612eb4b1c74f4e356d"
+  },
+  "ticket_price": {
+    "$numberDecimal": "150"
+  }
+},{
+  "_id": {
+    "$oid": "662b467e2eb4b1c74f4e357c"
+  },
+  "from": {
+    "$oid": "662b44772eb4b1c74f4e3570"
+  },
+  "to": {
+    "$oid": "662b44772eb4b1c74f4e3574"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1715093100000"
+    }
+  },
+  "aircraft": {
+    "$oid": "662b44612eb4b1c74f4e356d"
+  },
+  "ticket_price": {
+    "$numberDecimal": "175"
+  }
+},{
+  "_id": {
+    "$oid": "662b467e2eb4b1c74f4e357d"
+  },
+  "from": {
+    "$oid": "662b44772eb4b1c74f4e3572"
+  },
+  "to": {
+    "$oid": "662b44772eb4b1c74f4e3570"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1715154300000"
+    }
+  },
+  "aircraft": {
+    "$oid": "662b44612eb4b1c74f4e356d"
+  },
+  "ticket_price": {
+    "$numberDecimal": "100"
+  }
+},{
+  "_id": {
+    "$oid": "662b467e2eb4b1c74f4e357e"
+  },
+  "from": {
+    "$oid": "662b44772eb4b1c74f4e3570"
+  },
+  "to": {
+    "$oid": "662b44772eb4b1c74f4e3572"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1715164500000"
+    }
+  },
+  "aircraft": {
+    "$oid": "662b44612eb4b1c74f4e356d"
+  },
+  "ticket_price": {
+    "$numberDecimal": "120"
+  }
+}]

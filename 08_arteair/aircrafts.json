@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "662b44612eb4b1c74f4e356d"
+  },
+  "aircraft_code": "777-31H",
+  "model": "Boeing 777",
+  "year": 2005,
+  "rows": 30,
+  "row_layout": "ABC_DEF"
+},{
+  "_id": {
+    "$oid": "662b44612eb4b1c74f4e356e"
+  },
+  "aircraft_code": "DC10",
+  "model": "Douglas DC-10",
+  "year": 2010,
+  "rows": 40,
+  "row_layout": "ABC_DEFG_HIJ"
+}]
