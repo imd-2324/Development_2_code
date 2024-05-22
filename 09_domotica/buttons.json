@@ -1,0 +1,251 @@
+[{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119538"
+  },
+  "name": "Keukentafel",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119530"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119539"
+  },
+  "name": "Keuken aanrecht",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119530"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a786011953a"
+  },
+  "name": "Eetplaats",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119530"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a786011953b"
+  },
+  "name": "Salon",
+  "icon": "lightbulb",
+  "status": true,
+  "category": {
+    "$oid": "663a763ef4182a7860119530"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a786011953c"
+  },
+  "name": "Sfeerverlichting",
+  "icon": "lightbulb",
+  "status": true,
+  "category": {
+    "$oid": "663a763ef4182a7860119530"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a786011953d"
+  },
+  "name": "Wasplaats",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119531"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a786011953e"
+  },
+  "name": "Berging",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119531"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a786011953f"
+  },
+  "name": "Garage",
+  "icon": "lightbulb",
+  "status": true,
+  "category": {
+    "$oid": "663a763ef4182a7860119531"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119540"
+  },
+  "name": "Inkom",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119531"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119541"
+  },
+  "name": "Toilet",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119531"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119542"
+  },
+  "name": "Bureel",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119531"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119543"
+  },
+  "name": "Nachthal",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119532"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119544"
+  },
+  "name": "Badkamer",
+  "icon": "lightbulb",
+  "status": true,
+  "category": {
+    "$oid": "663a763ef4182a7860119532"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119545"
+  },
+  "name": "Badkamer meubel",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119532"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119546"
+  },
+  "name": "Dressing",
+  "icon": "lightbulb",
+  "status": true,
+  "category": {
+    "$oid": "663a763ef4182a7860119532"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119547"
+  },
+  "name": "Slaapkamer 1",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119532"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119548"
+  },
+  "name": "Slaapkamer 2",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119532"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119549"
+  },
+  "name": "Slaapkamer 3",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119532"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a786011954a"
+  },
+  "name": "Zolder",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119532"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a786011954b"
+  },
+  "name": "Voordeur",
+  "icon": "lightbulb",
+  "status": false,
+  "category": {
+    "$oid": "663a763ef4182a7860119533"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a786011954c"
+  },
+  "name": "Achterdeur",
+  "icon": "lightbulb",
+  "status": false,
+  "categories": {
+    "$oid": "663a763ef4182a7860119533"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a786011954d"
+  },
+  "name": "Tuinhuis",
+  "icon": "lightbulb",
+  "status": true,
+  "categories": {
+    "$oid": "663a763ef4182a7860119533"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a786011954e"
+  },
+  "name": "Sfeer",
+  "icon": "lightbulb",
+  "status": true,
+  "categories": {
+    "$oid": "663a763ef4182a7860119533"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a786011954f"
+  },
+  "name": "Poort 1",
+  "icon": "garage",
+  "status": false,
+  "categories": {
+    "$oid": "663a763ef4182a7860119534"
+  }
+},{
+  "_id": {
+    "$oid": "663a76bdf4182a7860119550"
+  },
+  "name": "Poort 2",
+  "icon": "garage",
+  "status": false,
+  "categories": {
+    "$oid": "663a763ef4182a7860119534"
+  }
+}]

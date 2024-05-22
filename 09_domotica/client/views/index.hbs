@@ -1,0 +1,8 @@
+<header>
+    <h1>My Home</h1>
+</header>
+<div class="buttonlist">
+{{#each rooms as |room|}}
+    <a href="/room/{{ room._id }}"><i class="fal fa-{{ room.icon }}"></i> <span>{{ room.name }}</span></a>
+{{/each}}
+</div>
